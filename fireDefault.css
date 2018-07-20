@@ -1,9 +1,4 @@
 @charset "UTF-8";
-/************ Extra Small ************/
-/************ Small ************/
-/************ Medium ************/
-/************ Large ************/
-/************ Extra Large ************/
 /***************************************************Bootstrap Custom*********************************/
 .btn-primary.focus, .btn-primary:focus {
   -webkit-box-shadow: none !important;
@@ -19387,6 +19382,36 @@ label {
   margin-top: 0;
   margin-bottom: 0; }
 
+.table_head {
+  font-size: 11px;
+  text-transform: uppercase; }
+
+.label_primary {
+  text-transform: uppercase;
+    font-size: 13px;
+    font-size: 0.8125rem; }
+
+#sidemenu {
+  background-color: #1b2431;
+  border: 1px solid #313d4f;
+  overflow-y: auto; }
+
+#header {
+  background-color: #1b2431;
+  border: 1px solid #313d4f; }
+
+.openMenu {
+  background-color: green; }
+
+#content {
+  background-color: #1b2431;
+  border: 1px solid #313d4f;
+  overflow-y: auto; }
+
+#footer {
+  background-color: #1b2431;
+  border: 1px solid #313d4f; }
+
 @media only screen and (max-width: 575.98px) {
   #sidemenu {
     display: none;
@@ -19530,33 +19555,3 @@ label {
     left: 300px;
     right: 0;
     bottom: 0; } }
-
-.table_head {
-  font-size: 11px;
-  text-transform: uppercase; }
-
-.label_primary {
-  text-transform: uppercase;
-    font-size: 13px;
-    font-size: 0.8125rem; }
-
-#sidemenu {
-  background-color: #1b2431;
-  border: 1px solid #313d4f;
-  overflow-y: auto; }
-
-#header {
-  background-color: #1b2431;
-  border: 1px solid #313d4f; }
-
-.openMenu {
-  background-color: green; }
-
-#content {
-  background-color: #1b2431;
-  border: 1px solid #313d4f;
-  overflow-y: auto; }
-
-#footer {
-  background-color: #1b2431;
-  border: 1px solid #313d4f; }
